@@ -1,0 +1,49 @@
+{
+  "entities": {
+    "siteContent": {
+      "title": "Site Content",
+      "description": "Dynamic content settings for HOGO Pest Management website",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "companyName": { "type": "string" },
+        "tagline": { "type": "string" },
+        "phone": { "type": "string" },
+        "whatsapp": { "type": "string" },
+        "email": { "type": "string" },
+        "address": { "type": "string" },
+        "heroTitle": { "type": "string" },
+        "heroDescription": { "type": "string" },
+        "heroImageUrl": { "type": "string" },
+        "logoUrl": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id", "companyName"]
+    },
+    "services": {
+      "title": "Services",
+      "description": "Pest management services offered by HOGO",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "shortDescription": { "type": "string" },
+        "category": { "type": "string" },
+        "warranty": { "type": "string" },
+        "startingPrice": { "type": "string" },
+        "targetPest": { "type": "string" }
+      },
+      "required": ["id", "name"]
+    }
+  },
+  "firestore": {
+    "/site_content/{contentId}": {
+      "schema": { "$ref": "#/entities/siteContent" },
+      "description": "Global settings and content for HOGO website"
+    },
+    "/services/{serviceId}": {
+      "schema": { "$ref": "#/entities/services" },
+      "description": "Dynamic services managed by admin"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "HOGO Pest Management",
+  "description": "Layanan Pengendalian Hama Profesional, Cepat, dan Bergaransi. Protect - Prevent - Preserve dengan formulasi ramah lingkungan dan teknisi tersertifikasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
