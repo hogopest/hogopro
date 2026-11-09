@@ -71,7 +71,7 @@ export const AboutVisionMission: React.FC = () => {
           <div className="lg:col-span-6">
             <div className="relative rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-900">
               <img
-                src="/src/assets/images/service_commercial_hygiene_1792946456151.jpg"
+                src="/src/assets/images/hero2.jpg"
                 alt="Standar higienitas dan IPM komersial profesional HOGO Pest Management"
                 className="w-full h-80 sm:h-96 object-cover"
                 referrerPolicy="no-referrer"
