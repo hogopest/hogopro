@@ -102,7 +102,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
           <div className="lg:col-span-5 relative mt-4 lg:mt-0">
             <div className="relative rounded-2xl overflow-hidden border border-slate-200/90 shadow-xl bg-slate-900 group">
               <img
-                src="/src/assets/images/hero_pest_inspection_1792946456058.jpg"
+                src="/src/assets/images/hero1.jpg"
                 alt="Teknisi profesional HOGO Pest Management melakukan inspeksi presisi"
                 className="w-full h-80 sm:h-96 lg:h-[460px] object-cover group-hover:scale-102 transition-transform duration-500"
                 referrerPolicy="no-referrer"
