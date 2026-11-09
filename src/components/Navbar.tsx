@@ -70,7 +70,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking, onOpenAdmin }) =>
           <a href="#" className="flex flex-col items-start group shrink-0">
             <div className="h-10 sm:h-12 flex items-center">
               <img
-                src={COMPANY_CONFIG.logoPath}
+                src="../assets/images/logo.jpeg"
                 alt="HOGO Pest Management Logo"
                 className="h-9 sm:h-11 w-auto object-contain"
                 referrerPolicy="no-referrer"
